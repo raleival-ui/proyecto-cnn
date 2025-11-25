@@ -1,4 +1,11 @@
 import streamlit as st
+
+st.set_page_config(
+    page_title="Mi App CNN",
+    layout="wide"
+)
+
+import streamlit as st
 import sys
 from pathlib import Path
 import pandas as pd
